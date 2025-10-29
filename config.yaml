@@ -1,0 +1,34 @@
+# Objetivos de ejemplo (puedes editarlos desde la app)
+goals:
+  - area: finanzas
+    name: Ahorro mensual
+    type: acumulativo
+    target_value: 300000
+    unit: CLP
+    period: corto
+    start_date: 2025-01-01
+    end_date: 2025-12-31
+    direction: ">="
+    notes: Ahorro promedio mensual
+
+  - area: deporte
+    name: Correr 100 km/mes
+    type: acumulativo
+    target_value: 100
+    unit: km
+    period: corto
+    start_date: 2025-10-01
+    end_date: 2025-10-31
+    direction: ">="
+    notes: Suma de distancia_km
+
+  - area: salud
+    name: Peso <= 82 kg
+    type: promedio
+    target_value: 82
+    unit: kg
+    period: mediano
+    start_date: 2025-09-01
+    end_date: 2025-12-31
+    direction: "<="
+    notes: Promedio mensual
